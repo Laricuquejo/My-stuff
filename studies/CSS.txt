@@ -1,0 +1,42 @@
+- Cascading Style Sheets.
+- CSS defines exactly how HTML looks like.
+- HTML is content and CSS is style.
+- There are three ways to use CSS:
+1. CSS code inside an HTML tag; <p style="font-size": 120%">
+2. CSS code inside an HTML document;  <style> p {font-size: 120%} </style>
+3. CSS code in external file; p {font-size: 120% }
+-We use the link tag in the HTML head; <link rel="stylesheet" type="text/css" href="style.css">
+- CSS is written in rules. Each ruleconsists of a selector,and a declaration block.
+- If you want change the text color; (for example) h1 { color: blue }.
+- If you want change the size;(for example) h1 { font-size: 40px }.
+- If you want change the font family; (for example) h2 { font-family: Helvetica neue}, if that font is not avaliable on
+your system, you need to put Arial;  h2 { font-family: Helvetica neue, Arial}
+- If you want equalize the text letter with the link; body {""}
+- If you want to style only one of the paragraphs, not all them, we can attribute class or ID name to elements;
+<p class="">, <p id="">
+      :           : 
+      V           V    
+."name" {}           #"name" {}
+- If you want to leave everything without margins or padding; * { margin: 0;
+                                                                  padding: 0;
+                                                                  box-sizing: border-box; }
+- If you want space between one element and other; (for example) h2 { margin-bottom: 20px}.
+- <div> stands for divide.
+- for adjust the widht and margin, you have to create a class 
+and give a name for it and then you go and out these tag:
+.container { widht : 1140;
+            margin-left: auto;
+            margin-right: auto;}.
+- For put color in the wallpaper, you have to create a class
+and then you go and out these tag; ."" { background-color: }
+- If you want to put something in the left side you must adjust the widht and then you go and out these tag.
+."" {widht: 25%;
+     float: left;}
+     
+     
+
+
+
+
+
+
