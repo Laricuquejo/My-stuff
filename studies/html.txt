@@ -1,5 +1,20 @@
-- Hyper Text Markup Language.
-- HTML documents are described by HTML tags: 
-<hl> <p> <a> 
--Tags mark up the beginning and the end of an element:
-<tagname>content</tagname>
+ - Hyper Text Markup Language.
+ - HTML documents are described by HTML tags: 
+ <hl> <p> <a> 
+ -Tags mark up the beginning and the end of an element:
+ <tagname>content</tagname>
+ - The <head> element can iclude a title for your web site, CSS style, some information for the  browser, or for search engines (motores de búsqueda) and more.
+ - The <body> element is where the visble stuff ofyour web page goes, like all the content, such as text, links, images, lists, and more elements.
+ - The <!DOCTYPE html> just told the browser that this file will be an HTML5.
+ - For put a title you need to put this tag <title></title>.
+ - The tag <h1> se usa para las cosas mas importantes que lo quieres destacar y para las cosas menos importantes se usan las tags <h2>, <h3>...h6.
+ - The tag <p> is for put larger texts.
+ - The tag <strong> is for put some words in bold.
+ - the tag <em> is for put the word in italics (cursiva).
+ - The tag <u> is for put some words in underlined.
+ - The tag <br> is for put a line break.
+ - The tag <img src> is for put some images.
+ - For put a link use this tag <a href= "link"></a>. If you don't want to leave the page you have to put this <a href="link" target"_blanck"></a>.
+ - The tag <header> is where we are going to put the logo, the navigation, the hero image, the main heading, and those buttons.
+ - navigation is like a collection of links.
+
