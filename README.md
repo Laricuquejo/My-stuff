@@ -1,3 +1,3 @@
-![Alt text](img/love.jpg.png?raw=true "Title")
+![Alt text](imgs/love.jpg.png?raw=true "Title")
 
 ## Welcome to Mystuff :)
