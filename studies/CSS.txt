@@ -57,8 +57,15 @@ and then you go and out these tag; ."" { background-color: }
     border-radius: 200px;
     color: #fff
  }
-- the tag display: inline-block it's  to put the things side by side.
+- The tag display: inline-block it's  to put the things side by side.
 - The h2 after it's just some stuff that will apear after the h2.
+- the tag li is to put some links:
+.idk li {
+
+}
+-To make the images look the same size you have to set a maximum height with pixels.
+ ex: height: 200px;
+ 
  
 
      
