@@ -60,12 +60,24 @@ and then you go and out these tag; ."" { background-color: }
 - The tag display: inline-block it's  to put the things side by side.
 - The h2 after it's just some stuff that will apear after the h2.
 - the tag li is to put some links:
-.idk li {
+.name-of-your-class li {
 
 }
 -To make the images look the same size you have to set a maximum height with pixels.
  ex: height: 200px;
- 
+ -To have a cool effect, you have to add :hover and put the following tags;
+ex: .name-of-your-class img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+but before you have to put this;
+.name-of-your-class img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
  
 
      
