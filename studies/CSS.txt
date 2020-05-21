@@ -77,6 +77,8 @@ but before you have to put this;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
 }
+-If you want to make a circle you have to use this;
+ex:  border-radius: 50%;
 
  
 
