@@ -17,6 +17,15 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix { zoom: 1;}
+.clearfix:after {
+    content: '-';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* ----------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ----------------------------------------------- */
@@ -194,6 +203,9 @@ h2:after {
     padding-left: 3%;
 }
 
+.works-step:last-of-type{
+    margin-bottom: 80px;
+}
 .works-step {
     margin-bottom: 50px;
 }
@@ -203,7 +215,17 @@ h2:after {
     border: 2px solid #218c74;
     display: inline-block;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }

@@ -79,6 +79,7 @@ but before you have to put this;
 }
 -If you want to make a circle you have to use this;
 ex:  border-radius: 50%;
+- clearfix is to clear the floats
 
  
 
