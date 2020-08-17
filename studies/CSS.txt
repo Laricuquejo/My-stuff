@@ -84,6 +84,10 @@ ex:  border-radius: 50%;
 line-height: 120%;
 vertical-align: middle;
 margin-top: -2px;
+-To put a background:
+ background-image: url(link).
+ To put an effect to make the image stays in the same place and while we scroll it down, you can see the rest of the image, you need to put this;
+ background-attachment: fixed.
 
  
 

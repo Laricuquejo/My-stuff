@@ -45,6 +45,8 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+
 }
 .hero-text-box {
     position: absolute;
@@ -249,3 +251,30 @@ cite img {
     margin-right: 10px;
 }
 
+/* ----------------------------------------------- */
+/* TESTIMONIALS*/
+/* ----------------------------------------------- */
+
+.section-testimonials {
+    background-image: url(img/Gato-luces.jpg);
+    background-size: cover;
+    color: #000;
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+cite img {
+    heigher: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
