@@ -27,7 +27,7 @@ and give a name for it and then you go and out these tag:
 .container { widht : 1140;
             margin-left: auto;
             margin-right: auto;}.
- - For put color in the wallpaper, you have to create a class
+ - To put color in the wallpaper, you have to create a class
 and then you go and out these tag; ."" { background-color: }
  - If you want to put something in the left side you must adjust the widht and then you go and out these tag.
 ."" {widht: 25%;
