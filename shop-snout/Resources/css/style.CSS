@@ -308,3 +308,26 @@ cite img {
     font-size: 80%;
 }
 
+/* ----------------------------------------------- */
+/* Form*/
+/* ----------------------------------------------- */
+
+.contact-form {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+input [type=text],
+input [type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+
+}
+
+textarea {
+    height:100px
+}
