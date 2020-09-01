@@ -313,7 +313,7 @@ cite img {
 /* ----------------------------------------------- */
 
 .contact-form {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 
 }
@@ -331,3 +331,9 @@ textarea {
 textarea {
     height:100px
 }
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+} 
+
+*:focus {outline: none;}
