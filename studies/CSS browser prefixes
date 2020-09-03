@@ -1,0 +1,14 @@
+
+CSS browser prefixes:
+Android: -webkit-                   
+Chrome: -webkit-
+Firefox: -moz-
+Intenet Explorer: -ms-
+ios: -webkit-
+Opera: -o-
+Safari: -webkit-
+
+-webkit-border-radius:25px;
+-moz-border-radius: 25px;
+-o-border-radius: 25px;
+border-radius: 25px;
