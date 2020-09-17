@@ -1,0 +1,5 @@
+Every document where we write our JQuery code has to start like this:
+$(document).ready(function() {
+
+    
+})
