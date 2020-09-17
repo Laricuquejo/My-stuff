@@ -43,7 +43,7 @@ body {
 
 
 header {
-    background-image: url('img/perros-gatos-t.jpg');
+    background-image: url('img/fodo7.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -58,12 +58,14 @@ header {
     transform: translate(-50%, -50%);
 }
 .logo {
-    height: 100px;
+    height: 60px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
+/* Main navi */
 .main-nav {
     float: right;
     list-style: none;
@@ -93,6 +95,26 @@ header {
     border-bottom: 2px solid rgb(55, 122, 109)
 
 }
+
+/* Main navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(225, 225, 225, 0.98);
+    box-shadow: 0 2px 2x #efefef
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 15px 0;
+    color: #507471;
+  
+}
+
+.main-nav { margin-top: 20px; }
+
 /* ----- HEADINGS ----- */
 h1,
 h2 {
@@ -107,7 +129,7 @@ h1 {
 
     margin: 0; 
     margin-bottom: 20px;
-    color: #474787;
+    color: #507471;
     font-size: 240%;
     word-spacing: 4px;
 
