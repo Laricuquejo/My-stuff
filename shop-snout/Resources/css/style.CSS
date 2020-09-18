@@ -58,7 +58,7 @@ header {
     transform: translate(-50%, -50%);
 }
 .logo {
-    height: 60px;
+    height: 50px;
     width: auto;
     float: left;
     margin-top: 10px;
@@ -103,7 +103,8 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(225, 225, 225, 0.98);
-    box-shadow: 0 2px 2x #efefef
+    box-shadow: 0 2px 2x #efefef;
+    z-index: 9999;
 }
 
 .sticky .main-nav li a:link,

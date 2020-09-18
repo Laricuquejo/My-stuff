@@ -117,6 +117,7 @@ margin-top: -2px;
 
 - With the property fixed, the navigation stays always at the same point of our scrolling.
      position: fixed;
+- Z-index finds the vertical stacking of elements.
 
  
 
