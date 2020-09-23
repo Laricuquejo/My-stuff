@@ -34,7 +34,14 @@ $(document).ready(function() {
           return false;
         }
       }
-    })
+    });
+
+  /* Animations on scroll */
+  $('.js--wp-1').waypoint(function(direction){
+    $('.js--wp-1').addClass('animated pulse');
+  },{
+    offset: '50%'
+  });
 
 
 

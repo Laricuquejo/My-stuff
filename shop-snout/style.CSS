@@ -116,6 +116,16 @@ header {
 
 .main-nav { margin-top: 20px; }
 
+
+
+/* Main navi */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
 /* ----- HEADINGS ----- */
 h1,
 h2 {
