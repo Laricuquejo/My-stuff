@@ -419,7 +419,7 @@ footer p {
     opacity: 0;   
 }
 
-.js--wp-1 .animated {
+.js--wp-1.animated {
     opacity: 1;
 }
 
