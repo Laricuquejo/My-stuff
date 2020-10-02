@@ -61,9 +61,16 @@ $(document).ready(function() {
 
   /* Animations on scroll */
   $('.js--wp-1').waypoint(function(direction) {
-    $('.js--wp-1').addClass('animated fadeIn');
+    $('.js--wp-1').addClass('animated rubberBand');
   },{
     offset: '50%'
+  });
+
+  /* Mobile nav */
+  $('js--nav-icon').click(function() {
+    var nav = $('js--main-nav');
+
+    nav.slideToggle(200);
   });
 
 
