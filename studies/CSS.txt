@@ -119,6 +119,9 @@ margin-top: -2px;
      position: fixed;
 - Z-index finds the vertical stacking of elements.
 
+-FLEXBOX is a amazing technology to lay out elements in a 1-dimensional row without using floats and others "hacks".
+Perfect for small components.
+
  
 
      

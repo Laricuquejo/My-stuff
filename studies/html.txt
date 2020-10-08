@@ -21,6 +21,6 @@
  -If you want to write something and you don't want it to appear on the web, you can use this:
   <!--
  - Form is like a group of input elements, and needs to have a couple of attributes; method and action.
- 
+ - The attribute alt is to describe a image.
  
 
