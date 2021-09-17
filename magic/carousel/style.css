@@ -14,7 +14,7 @@ body {
   }
   
   a {
-    color: #92badd;
+    color: #b392dd;
     display:inline-block;
     text-decoration: none;
     font-weight: 400;
@@ -59,7 +59,6 @@ body {
     text-align: center;
   }
   
-  
   /* TABS */
   
   h2.inactive {
@@ -70,8 +69,6 @@ body {
     color: #0d0d0d;
     border-bottom: 2px solid #5fbae9;
   }
-  
-  
   
   /* FORM TYPOGRAPHY*/
   
@@ -138,8 +135,6 @@ body {
   input[type=text]:placeholder {
     color: #cccccc;
   }
-  
-  
   
   /* ANIMATIONS */
   
@@ -242,8 +237,6 @@ body {
   .underlineHover:hover:after{
     width: 100%;
   }
-  
-  
   
   /* OTHERS */
   
