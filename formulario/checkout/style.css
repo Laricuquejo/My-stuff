@@ -21,4 +21,52 @@
 
 .mb-3 {
     font-family: "Poppins", sans-serif;
+    color: rgb(180, 97, 235);
 }
+
+ .form-check-1 {
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.form-check-2 {
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.form-check-3 {
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.form-check-4 {
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.form-check-5 {
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+} 
+
+.w-100 {
+    margin-top: 0%;
+    margin-left: 50%;
+    margin-right: 0%;
+    margin-bottom: 4%;
+    background-color: rgb(180, 97, 235);
+    
+}
+
+
+
