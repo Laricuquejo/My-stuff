@@ -3,3 +3,36 @@ HTML = Hypertext markup language.
 CSS = Cascading Style Sheets.
 HTTP = Hypertext Transfer Protocol.
 
+The <br> tag does not need a closing tag.
+<strong> = bold(negrito).
+<em></em> = Emphasis.
+<i></i> = italic.
+Differences between <i></i> and <em></em> 
+We have 2 types of lists the <ul>(unorganised lists):
+  <ul>
+    <li>Tea</li>
+    <li>Sugar</li>
+    <li>Milk</li>
+ </ul>
+result on the website:
+  • milk
+  • tea
+  • apple
+And we have the <ol>(organised lists):
+  <ol>
+    <li>Rocky</li>
+    <li>Rocky II</li>
+    <li>Rocky III</li>
+ </ol>
+result on the website:
+1.Rocky
+2.Rocky II
+3.Rocky III
+A <div> tag defines a content division in a HTML document. It acts as a generic container and has no effect on the content unless it is styled by CSS.
+If you want to leave a comment in the code for other developers, it can be added as:
+  <!-- This is a comment --> 
+<a> = this tag works just like an anchor, it links your actual webpage with another webpage:
+<a href="location.html">Our location</a>
+  
+  
+
