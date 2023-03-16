@@ -33,6 +33,83 @@ If you want to leave a comment in the code for other developers, it can be added
   <!-- This is a comment --> 
 <a> = this tag works just like an anchor, it links your actual webpage with another webpage:
 <a href="location.html">Our location</a>
-  
-  
+<img src="" width="" height="" alt=""> = to put an image. 
+How can I do a table?
+<table>
+  <tr>
+    <th>Dish</th>
+    <th>Price</th>
+    
+  </tr>
+  <tr>
+    <td>Falafel</td>
+    <td>$10.00</td>
+  </tr>
+  <tr>
+    <td>Pasta Salad</td>
+    <td>$12.00</td>
+  </tr>
+</table>
 
+CSS:
+The example below selects all p elements that have the CSS class introduction applied to them.
+<p class="introduction"></a>
+  
+p.introduction { 
+  margin: 2px;
+}
+
+Descendant selectors are useful if you need to select HTML elements that are contained within another selector.
+<div id="blog">
+  <h1>Latest News</h1>
+  <div>
+    <h1>Today's Weather</h1>
+    <p>The weather will be sunny</p>
+  </div>
+  <p>Subscribe for more news</p>
+</div>
+<div>
+  <h1>Archives</h1>
+</div>
+
+#blog h1 {
+  color: blue;
+}
+
+Child selectors are more specific than descendant selectors. They only select elements that are immediate descendants (children) of a selector (the parent).
+
+<div id="blog">
+  <h1>Latest News</h1>
+  <div>
+    <h1>Today's Weather</h1>
+    <p>The weather will be sunny</p>
+  </div>
+  <p>Subscribe for more news</p>
+</div>
+
+#blog > h1 {
+  color: blue;
+}
+The simplest example of this is changing the color of a hyperlink when it is hovered over. To do this, you add the :hover pseudo-class to the end of the selector. In the following example, adding :hover  to the a element will change the color of the hyperlink to orange when it is hovered over.
+a:hover {
+  color: orange;
+}
+
+To set the font used by text in CSS you use the font-family property.
+
+To set the size of the font, the font-size property is used.
+
+The most commonly used values for the text-transform property are:  uppercase,  lowercase,  capitalize 
+text-decoration = underlining or line-trough.
+You can set thickness with:
+text-decoration: underline red solid 5px;
+text-decoration-style  property;  solid,  double,  dotted,  dashed  and  wavy.  
+
+How to calculate the padding box width?
+content width + padding left-side + padding right-side
+How to calculate the padding box height?
+content height + padding top-side + padding bottom-side
+Tip: An HTML element is equal to the size of the border box.
+How to calculate the border box height?
+padding height + border top-side + border bottom-side
+How to calculate the margin box width?
