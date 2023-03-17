@@ -113,3 +113,5 @@ Tip: An HTML element is equal to the size of the border box.
 How to calculate the border box height?
 padding height + border top-side + border bottom-side
 How to calculate the margin box width?
+border box height + border top-side + border bottom-side
+Border box width = content width + padding width + border width
