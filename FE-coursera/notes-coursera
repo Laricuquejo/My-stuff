@@ -106,12 +106,79 @@ text-decoration: underline red solid 5px;
 text-decoration-style  property;  solid,  double,  dotted,  dashed  and  wavy.  
 
 How to calculate the padding box width?
-content width + padding left-side + padding right-side
+content width + padding left-side + padding right-side.
 How to calculate the padding box height?
-content height + padding top-side + padding bottom-side
+content height + padding top-side + padding bottom-side.
 Tip: An HTML element is equal to the size of the border box.
 How to calculate the border box height?
-padding height + border top-side + border bottom-side
+padding height + border top-side + border bottom-side.
 How to calculate the margin box width?
-border box height + border top-side + border bottom-side
-Border box width = content width + padding width + border width
+content width + padding width + border width + margin width.
+Border box width = content width + padding width + border width.
+*****alignment basics week2*****
+Document flow is the arrangement of page elements, as defined by CSS positioning statements, and the order of HTML elements.
+Text alignment can be set to left, right, center and justify.
+
+The justify alignment spreads the text out so that every line of the text has the same width.
+It is important to note that this works because the div element is a block-level element.  
+
+If you want to align an inline element like img, you will need to change it to a block-level element. Similar to the div example, you add the img to a parent element.
+HTML element alignment is more complicated than text alignment. To align HTML elements, you must consider the box model and document flow from previous lessons. Aligning an HTML element is done by changing the properties of its box model and how it impacts the document flow.
+The float property sets an element's position relative to the text content within a parent element. Text will wrap around the element.
+
+Bootstrap:
+Bootstrap is a library of CSS and JavaScript code that you can combine to quickly build visually appealing websites.
+How to add a css librarie:
+<head>
+  <link href="blabla" rel="stylesheet">
+</head>
+How to add an javascript librarie to your webpage:
+<body>
+  <script src="blabla"></script>
+</body>
+
+3 things to do a website responsive:
+
+* flexible grids
+
+* fluid images
+
+*  media queries
+
+Flexible grids:
+are made of columns, gutters (space between the columns) and margins.
+
+Fluid images:
+max-width: 100%
+
+Media queries:
+Display size, orientation, aspect ratio.
+
+Breakpoint:
+Fixed grid, Fluid grid, Hybrid grid.
+
+Extra small < 576px
+Small(class infix = sm) >=576px
+Medium (class infix = md) >= 768px
+Large (class infix = lg) >= 992px
+Extra large xl (class infix = xl) >= 1200pxl
+Extra extra large (class infix = xxl) >= 1400pxl
+
+Other CSS frameworks and libraries
+
+Foundation: is a framework for building user interfaces similar to Bootstrap. It is used by many large companies such as Pixar, Polar and Sonos. One prominent feature of Foundation is that it can be used to style content for sending via email.
+
+Pure.css: Pure.css is another library for building user interfaces. While it doesn't have as many features as Bootstrap, it is designed to be minimal in file size. Smaller file sizes improve loading times for web pages as there is less data to transfer from the web server. If your next project is focused on minimal loading time, this library is worth considering.
+
+Tailwind CSS: Tailwind CSS is a CSS framework that uses a utility-based approach for its CSS rules. This means that the framework provides many CSS classes with a single purpose. For example, the CSS class pt-6 sets the padding-top CSS property to 6 pixels. This means that you can be precise in applying styling to your HTML without writing CSS. The advantage to this is that it is more flexible for customizing your webpage's design using the framework. However, the disadvantage is that if multiple developers are working on a project, it could lead to inconsistent design if the team is not strict on its design rules.
+
+UIKit: UIKit is a lightweight CSS framework featuring a small set of responsive components. Its simple design allows developers to easily customize the style rules and visuals.
+
+MVP.css: MVP.css is a small CSS library that automatically styles HTML elements without needing to apply CSS classes to them. The library aims to allow a developer to quickly prototype a user interface without worrying about the final design, while still being visually appealing. MVP comes from the technical term Minimal Viable Product, a product with sufficient features to demo to customers or other business stakeholders.
+
+
+
+
+
+
+
