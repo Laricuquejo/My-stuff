@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Pet from "./Pet";
 const ANIMALS = ["bird", "cat", "dog", "rabbit", "reptile"];
 
 const SearchParams = () => {
@@ -14,7 +15,7 @@ const SearchParams = () => {
 
     async function requestPets() {
         const res = await fetch(
-            `http://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${breed}`
+            `http://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${breed}`  // esto hace que coja las cosas del api
         );
         const json = await res.json();
 
@@ -70,7 +71,12 @@ const SearchParams = () => {
             </form>
             {
                 pets.map(pet => (
-                    <Pet name={pet.name} animal={pet.animal} breed={pet.breed} key={pet.id} />
+                    <Pet 
+                        name={pet.name} 
+                        animal={pet.animal} 
+                        breed={pet.breed}    
+                        key={pet.id}          // Es importante darle un key para que react entienda que aunque no haya puesto las cosas en el mismo orden no las destroze xD
+                    />
                 ))
             }
         </div>
