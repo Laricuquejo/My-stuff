@@ -22,7 +22,8 @@ This guide provides step-by-step instructions for setting user privileges on a L
 
 3. **Editing User Privileges**
    - In the sudoers file, locate the "User privilege specification" section. Add the following line to grant sudo privileges to your user, replacing `<youruser>` with your actual username:
-     
+
+     ```bash
      <youruser> ALL=(ALL:ALL) ALL
      ```
 
@@ -31,7 +32,8 @@ This guide provides step-by-step instructions for setting user privileges on a L
 
 5. **Exiting Root**
    - Finally, exit from the root user by typing:
-     
+
+     ```bash
      exit
      ```
      This will return you to your regular user session.
@@ -45,6 +47,7 @@ To avoid entering your password every time you use `sudo`, you can configure it 
 
 2. **Edit sudoers File**
    - Run:
+   
      ```bash
      sudo visudo
      ```
