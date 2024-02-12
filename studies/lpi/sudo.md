@@ -6,14 +6,16 @@ This guide provides step-by-step instructions for setting user privileges on a L
 
 1. **Accessing Root**
    - To begin, you need to access the root user. Open a terminal and run the following command:
-    
+   
+    ```bash
      su -
      ```
      You will be prompted to enter the root password.
 
 2. **Editing sudoers File**
    - Once you're logged in as the root user, you'll edit the sudoers file to grant privileges to your user. Run the following command:
-     
+
+     ```bash
      sudo visudo
      ```
      This command opens the sudoers file in a text editor.
