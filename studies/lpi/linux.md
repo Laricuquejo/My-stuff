@@ -151,4 +151,19 @@ GnuPG (GNU Privacy Guard) is a crucial tool for email and file encryption, imple
 
 Disk encryption is another method to safeguard data by encrypting entire disks or partitions. Two methods are available: stacked filesystem encryption, where files are encrypted before storage, and block device encryption, encrypting data at the block level. dm-crypt with LUKS extension is a standard for block encryption, while EncFS offers stackable encryption without requiring root privileges. Veracrypt is a versatile option for encrypted media and files compatible with multiple platforms.
 
-
+# Answers to Explorational Exercises
+1. With one command and using brace expansion in Bash (review the man page for Bash), create
+5 files numbered 1 to 5 with the prefix game (game1, game2, …).
+Ranges can be used to express the numbers from 1 to 5 within one command:
+$ touch game{1..5}
+$ ls
+game1
+game2
+game3
+game4
+game5
+2. Delete all 5 files that you just created with just one command, using a different special
+character (review Pathname Expansion in the Bash man pages).
+Since all files start with game and end in a single character (a number from 1 to 5 in this case),
+? can be used as a special character for the last character in the filename:
+$ rm game?
