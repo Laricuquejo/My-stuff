@@ -13,28 +13,22 @@
    - Review the list of VM instances to identify the servers you want to delete.
    - Ensure that the servers you want to delete are currently stopped (if running). If they are running, stop them by selecting the instance and clicking the "Stop" button.
 
-5. **Delete Boot Disk:**
-   - After ensuring the VM instance is stopped, click on the instance name to view its details.
-   - Under "Boot disk", click on the boot disk name.
-   - On the boot disk details page, click on the "Edit" button.
-   - Scroll down and select "Delete" to delete the boot disk associated with the VM instance. Confirm the deletion.
-
-6. **Create Image (Optional):**
+5. **Create Image (Backup REQUIRED):**
    - If you want to keep a backup of the server's disk before deletion, you can create an image of the disk.
    - In the VM instance details page, under "Boot disk", click on the boot disk name.
    - On the boot disk details page, click on the "Create image" button.
    - Provide a name for the image and click on "Create".
 
-7. **Delete VM Instance:**
+6. **Delete VM Instance:**
    - After ensuring the boot disk is deleted or creating an image if necessary, navigate back to the VM instances list.
    - Select the VM instance(s) you want to delete by checking the checkbox next to their names.
    - Click on the "Delete" button at the top of the page.
    - Confirm the deletion when prompted.
 
-8. **Verify Deletion:**
+7. **Verify Deletion:**
    - Once the deletion process is complete, verify that the VM instances have been removed from the list.
 
-9. **(Optional) Provide Screenshot:**
+8. **(REQUIRED) Provide Screenshot:**
    - Take a screenshot of the process for documentation purposes.
    - You can use the built-in screenshot tool on your operating system or a third-party screenshot tool.
    - Save the screenshot and include it in your documentation.
