@@ -21,3 +21,6 @@ SSD: Solid-state disks consume less power, which can result in longer battery li
 Price:
 HDD: Hard disks are generally cheaper per gigabyte of storage compared to SSDs.
 SSD: Solid-state disks are typically more expensive but offer better performance and durability.
+DNS stands for Domain Name System. It's like the internet's phone book. When you type a website's domain name (like example.com) into your web browser, your computer needs to find out the numerical address (IP address) associated with that domain name to connect to the website's server. DNS servers are responsible for translating human-readable domain names into IP addresses and vice versa.
+
+In simpler terms, DNS helps your computer find the right website when you type in its name. It's a crucial part of how the internet works, ensuring that you can easily access websites using their domain names instead of having to remember a long string of numbers for each site.
