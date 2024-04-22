@@ -24,3 +24,23 @@ SSD: Solid-state disks are typically more expensive but offer better performance
 DNS stands for Domain Name System. It's like the internet's phone book. When you type a website's domain name (like example.com) into your web browser, your computer needs to find out the numerical address (IP address) associated with that domain name to connect to the website's server. DNS servers are responsible for translating human-readable domain names into IP addresses and vice versa.
 
 In simpler terms, DNS helps your computer find the right website when you type in its name. It's a crucial part of how the internet works, ensuring that you can easily access websites using their domain names instead of having to remember a long string of numbers for each site.
+The top command in Linux is used to display real-time information about processes and system resource usage. When you run the top command in a terminal, it displays a dynamic view that includes various pieces of information. Here are some of the key things that can be displayed by top:
+
+Overall System Information:
+System uptime
+Total number of processes
+CPU and memory usage summary
+Process Information:
+List of running processes
+Process ID (PID)
+CPU and memory usage of each process
+User running the process
+Command being executed by the process
+Resource Usage:
+CPU usage breakdown by user and system processes
+Memory (RAM) usage, including total, used, free, and buffers/cache
+System Load:
+Load averages (1 minute, 5 minutes, and 15 minutes) indicating system load over time
+Interactive Options:
+Ability to sort processes by different criteria (CPU usage, memory usage, etc.)
+Ability to kill or renice processes directly from within top
