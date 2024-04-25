@@ -1,0 +1,40 @@
+# Editing a Compute Engine Instance on Google Cloud Platform (GCP)
+
+In this guide, we will walk through the steps to edit a Compute Engine instance on Google Cloud Platform using the web console.
+
+## Step 1: Access Compute Engine in GCP Console
+
+1. Log in to your Google Cloud Platform console.
+2. Navigate to the Compute Engine section by clicking on the "Compute Engine" option from the left-hand navigation menu.
+
+## Step 2: Locate the Instance to Edit
+
+1. In the Compute Engine dashboard, locate the instance you want to edit from the list of VM instances.
+
+## Step 3: Take a Screenshot Before Stopping the Instance
+
+1. Before making any changes, take a screenshot before stoping the VM.
+
+## Step 4: Edit the Instance
+
+1. On the instance details page, click on the "Stop" button to stop the instance before making any changes.
+2. IF AUTHORIZED press "Stop" in the dialog box.
+3. Once the instance is stopped, click on the "Edit" button to modify its settings.
+
+## Step 5: Change the Machine Type
+
+1. In the instance edit page, locate the "Machine type" section.
+2. Click on the dropdown menu to select a new machine type that suits your requirements.
+
+## Step 6: Save the Changes
+
+1. Before saving, take a screenshot and wait for authorization.
+1. After making the desired modifications, scroll down to the bottom of the page.
+2. Click on the "Save" button to apply the changes to the instance.
+
+## Step 7: Verify Changes
+
+1. Once the changes are saved, you can verify the updated instance settings by navigating back to the Compute Engine dashboard.
+2. Check the instance details to ensure that the changes, including the new machine type, have been applied successfully.
+
+Congratulations! You have successfully edited a Compute Engine instance on Google Cloud Platform.
