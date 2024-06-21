@@ -17,7 +17,8 @@
    - If you want to keep a backup of the server's disk before deletion, you can create an image of the disk.
    - In the VM instance details page, under "Boot disk", click on the boot disk name.
    - On the boot disk details page, click on the "Create image" button.
-   - Provide a name for the image and click on "Create".
+   - ensure that the location is set in regional us-central1
+   - Provide a name (domain-name-bkp-date) for the image and click on "Create".
 
 6. **Delete VM Instance:**
    - After ensuring the boot disk is deleted or creating an image if necessary, navigate back to the VM instances list.
