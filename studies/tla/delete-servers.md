@@ -25,6 +25,7 @@
    - Select the VM instance(s) you want to delete by checking the checkbox next to their names.
    - Click on the "Delete" button at the top of the page.
    - Confirm the deletion when prompted.
+   - check if it exists SQL
 
 7. **Verify Deletion:**
    - Once the deletion process is complete, verify that the VM instances have been removed from the list.
