@@ -1,47 +1,30 @@
 # Installing Docker on Ubuntu
 
-Docker is a platform for developing, shipping, and running applications inside containers. This guide will help you install Docker on an Ubuntu system.
+This guide will walk you through the process of installing Docker on an Ubuntu server.
 
-## Prerequisites
-
-- An Ubuntu machine with a user that has `sudo` privileges.
-
-## Installation Steps
-
-Follow these steps to install Docker on Ubuntu:
+## Step-by-Step Installation
 
 ```sh
-# Step 1: Update your package database
-sudo apt-get update
+# Step 1: Update Package Database
+sudo apt update
 
-# Step 2: Install required packages
-sudo apt-get install -y \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
+# Step 2: Install Prerequisite Packages
+sudo apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 
-# Step 3: Add Docker’s official GPG key
-sudo mkdir -p /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+# Step 3: Add Docker’s GPG Key
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
-# Step 4: Set up the Docker repository
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+# Step 4: Verify the GPG Key
+sudo apt-key fingerprint 0EBFCD88
 
-# Step 5: Update the package database
-sudo apt-get update
+# Step 5: Add Docker Repository
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
-# Step 6: Install Docker Engine, CLI, and Containerd
-sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+# Step 6: Update Package Database Again
+sudo apt update
 
-# Step 7: Verify the installation
-sudo docker --version
+# Step 7: Install Docker Packages
+sudo apt install -y docker-ce docker-ce-cli containerd.io
 
-# Optional Step: Manage Docker as a non-root user
-sudo usermod -aG docker $USER
-newgrp docker
-
-# Optional Step: Enable Docker to start on boot
-sudo systemctl enable docker
+# Step 8: Add User to Docker Group
+sudo usermod -aG docker cloud_user
