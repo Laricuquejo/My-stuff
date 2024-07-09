@@ -6,6 +6,8 @@ This guide details the steps to delete a load balancer, instance groups, and ins
 
 ### 1. Delete Load Balancer
 
+fazer bkp da matriz e se tiver reddis tbm
+
 1. **Identify the Load Balancer:**
    - Locate the load balancer you intend to delete in your cloud management console.
 
