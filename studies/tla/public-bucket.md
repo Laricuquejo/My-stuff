@@ -12,6 +12,7 @@
     - Assign role: Storage Admin
 
 3. **Avisar o cliente**
+    - Entrar em objects, take a white screenshot than upload it
     - Bucket $PROMO_NAME criado;
     - O acesso admin foi garantido ao sa-$PROMO_NAME;
     - URL de exemplo: https://storage.googleapis.com/$PROMO_NAME/
