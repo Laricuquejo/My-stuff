@@ -26,6 +26,7 @@
    - Click on the "Delete" button at the top of the page.
    - Confirm the deletion when prompted.
    - check if it exists SQL
+   - Check if exists ip and thne delete it
 
 7. **Verify Deletion:**
    - Once the deletion process is complete, verify that the VM instances have been removed from the list.
