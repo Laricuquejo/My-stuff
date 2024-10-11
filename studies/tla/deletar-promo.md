@@ -35,3 +35,5 @@
    - Take a screenshot of the process for documentation purposes.
    - You can use the built-in screenshot tool on your operating system or a third-party screenshot tool.
    - Save the screenshot and include it in your documentation.
+
+9. check the existence of sql, vpc network and firewalls

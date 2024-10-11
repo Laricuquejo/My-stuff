@@ -1,15 +1,16 @@
-# Processo de como deletar um server da Magic
+# Process on how to delete a server from Magic
 
-1. **Fazer bkp da matriz e do reddis (se existir)**
-    - Antes fazer bkp certifiquese que a vm esta parada
-    - crie uma imagem do DISCO
-    - antes de salvar/criar certifiquese q a regiao esta em REGIONAL US-CENTRAL
-    - o nome deve ser escrito com: promoname-bkp-date
-    - enviar um screenshot mostrando q o bkp foi feito
+1. **Make a backup of the matrix and Redis (if it exists)**
+    - Before making a backup, ensure the VM is stopped.
+    - Create an image of the DISK.
+    - Before saving/creating, make sure the region is set to REGIONAL US-CENTRAL1.
+    - The name should be written as: promoname-bkp-date.
+    - Send a screenshot showing that the backup was completed.
 
-2. **Enviar link para senior**
-    - enviar link da vm q deseja deletar para o senior.
+2. **Send link to senior**
+    - Send the link of the VM you wish to delete to the senior.
 
-3. **Checar se a vm ainda existe, Buckets e SQL**
-    - caso exista SQL ler a doc nomeada deletar-sql.md
+3. **Check if the VM, Buckets, vpc network, firewalls and SQL still exist**
+    - If there is an SQL instance, read the document named delete-sql.md.
+
 

@@ -38,4 +38,6 @@
     ```ini
     Host bastion.redemagic.com
       Hostname 10.128.0.17
+
+      
     ```
