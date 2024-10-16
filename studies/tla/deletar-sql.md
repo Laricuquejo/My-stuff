@@ -10,6 +10,7 @@ Para ligar o servidor SQL, siga os passos abaixo:
 ### 2. Exportar (Fazer o Backup)
 
 1. ver as listas de bucket se n tiver criar um (foto do processo na pasta de screenshots do dia 09-07)
+2 exportar bucket, selecionar location,exportar 
 
 ### 3. Editar e Desligar o Data Protect
 
