@@ -1,0 +1,5 @@
+nome do dominio restore e data
+uscentral1 uscentral1-c
+
+vc cria uma vm baseada na imagem do disco bkp
+entrar boot disk custom images e selecionar o bkp
