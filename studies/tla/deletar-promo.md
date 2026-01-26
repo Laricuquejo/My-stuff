@@ -36,4 +36,25 @@
    - You can use the built-in screenshot tool on your operating system or a third-party screenshot tool.
    - Save the screenshot and include it in your documentation.
 
-9. check the existence of sql, vpc network and firewalls
+9. check the existence of sql, and firewalls
+
+10. send only photo of the bkp of matriz, reddis and sql
+
+Vc manda foto do backup do disco feito.
+
+
+E diz só:
+
+Backup da vm feito (foto)
+
+
+Backup do reddis feito (foto)  - quando exisitir
+
+
+Backup do sql feito (foto do backup) - quand existir tb
+
+
+o firewall, vpc e ip já vao ser deletados automaticamente, porque já esta no script, então não precisa me avisar nem compartilhar os links
+
+cloud delete pasta scripts editar nome da vm so para promo velhas e verificar instance groups
+
