@@ -33,6 +33,15 @@ scrape_configs:
 - Three targets: `demo.promlabs.com:10000`, `:10001`, `:10002` - Three different demo services on different ports
 - Prometheus will scrape metrics from all three at the defined interval
 
+**Config file **
+- prometheus.yml
+
+**Where it will store the collected metrics? **
+- data/
+
+**In which port it will listen? **
+- By default, Prometheus listens on port 9090
+
 ## Side Questions
 What is an HTTP request?
 An HTTP request is a message that one computer sends to another over the web to ask for something.
