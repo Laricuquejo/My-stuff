@@ -1,63 +1,107 @@
-## How the internet works?
+## How the internet works
 
-Imagine the internet as a huge city of computers all over the world, connected by roads (cables, Wi‑Fi).
-1. Houses and addresses
-Every computer/server is like a house.
-Each house has an address called an IP address (like 142.250.190.78).
-Website names like google.com are nicknames.
-A special “phonebook” called DNS turns the nickname into the real address:
-You ask: “Where is google.com?”
-DNS answers: “At IP 142.250.190.78”.
-2. Sending letters (packets)
-When you open a website, your computer sends tiny letters called packets.
+Imagine the internet as a **huge city of computers** all over the world, connected by **roads** (cables, Wi‑Fi, fibre).
+
+### 1. Houses and addresses
+
+- **Computers = houses**  
+  Every computer/server is like a house in this city.
+
+- **IP address = house number**  
+  Each one has an address called an **IP address** (for example `142.250.190.78`).
+
+- **Domain names = nicknames**  
+  Names like `google.com` are easier for humans to remember.
+
+- **DNS = phonebook**  
+  DNS (Domain Name System) is a **phonebook** that turns a name into an IP:
+  - You ask: “Where is `google.com`?”
+  - DNS answers: “At IP `142.250.190.78`”.
+
+### 2. Sending letters (packets)
+
+When you open a website, your computer sends **tiny letters** called **packets**.
+
 Each packet has:
-From: your IP
-To: website’s IP
-These packets travel through many routers (like post offices) that read the address and pass the packet closer to the destination.
-3. Conversation rules
-Computers follow rules so they can understand each other:
-TCP: makes sure all packets arrive and in the right order (like a careful mail service).
-HTTP/HTTPS: the language for web pages.
-Your browser says: “GET / this page please”.
-The server replies with the page, images, etc.
-4. Websites and browsers
-Your browser (Chrome, Safari, etc.) is like a reader:
-It gets HTML, CSS, JS from the server.
-It builds the page you see on the screen.
-5. HTTPS = secret/encrypted talk
-With HTTPS, your computer and the website:
-First agree on a secret code (encryption).
-Then they talk in secret, so others can’t read what you send (passwords, messages, etc.).
-So in short:
-You type site.com.
-DNS finds the server’s address.
-Your computer sends packets along the network “roads”.
-The server answers with web page data.
-Your browser shows you the page.
+- **From**: your IP  
+- **To**: the website’s IP  
 
-## What is OSI model?
-OSI model (high‑level)
-The OSI model is a way to describe how data moves over a network, split into 7 logical layers. From bottom (closest to the wire) to top (closest to the user):
-Physical
-Cables, Wi‑Fi radio, electrical signals, bits (0/1) on the wire.
-Data Link
-Direct connection between two devices on the same network segment.
-MAC addresses, Ethernet, switches, frames.
-Network
-Moving packets between different networks.
-IP addresses, routers, IP, ICMP.
-Transport
-End‑to‑end communication between applications.
-TCP, UDP, ports (like 80, 443, 9090).
-Session
-Manages sessions (who is connected to whom, for how long).
-Less visible today, often handled inside apps or TLS.
-Presentation
-Data format/translation, encryption, compression.
-Examples: JSON, TLS, character encoding.
-Application
-What the user/app actually uses.
-HTTP, FTP, DNS, SMTP, browsers, APIs, etc.
-A helpful memory phrase (bottom → top):
-Please Do Not Throw Sausage Pizza Away
-(Physical, Data link, Network, Transport, Session, Presentation, Application)
+These packets travel through many **routers** (like post offices) that read the address and pass each packet closer to its destination, step by step.
+
+### 3. Conversation rules (protocols)
+
+Computers follow **rules** so they can understand each other. These rules are called **protocols**:
+
+- **TCP**  
+  Makes sure all packets arrive, in order and without errors  
+  → like a very careful mail service that resends lost letters.
+
+- **HTTP / HTTPS**  
+  The language of the **web**:
+  - Your browser says: `GET /` (“please give me this page”).
+  - The server replies with the page, images, scripts, etc.
+
+### 4. Websites and browsers
+
+- Your **browser** (Chrome, Safari, Firefox, etc.) is like a **reader**.  
+- It receives **HTML, CSS, JavaScript** from the server.  
+- It **builds and draws** the page you see on the screen.
+
+### 5. HTTPS = secret / encrypted talk
+
+With **HTTPS**, your computer and the website:
+- First agree on a **secret code** (encryption keys).
+- Then they talk in **secret**, so:
+  - Other people on the network can’t read what you send (passwords, messages, card data, etc.).
+
+### 6. Summary flow
+
+1. You type `site.com` in the browser.  
+2. **DNS** finds the server’s IP address.  
+3. Your computer opens a **TCP** connection and sends **HTTP/HTTPS** packets along the network “roads”.  
+4. The **server** answers with web page data.  
+5. The **browser** renders and shows the page to you.
+
+---
+
+## What is the OSI model?
+
+The **OSI model** is a way to describe **how data moves over a network**, split into **7 logical layers**.  
+From bottom (closest to the wire) to top (closest to the user):
+
+### 1. Physical
+- Cables, Wi‑Fi radio, fibre, electrical/optical signals  
+- Bits (0/1) literally travelling on the medium.
+
+### 2. Data Link
+- Direct connection on the same network segment (local network).  
+- **MAC addresses**, Ethernet, switches, **frames**.
+
+### 3. Network
+- Moves **packets between different networks**.  
+- **IP addresses**, routers, IP, ICMP (ping).
+
+### 4. Transport
+- End‑to‑end communication between applications.  
+- **TCP**, **UDP**, ports (like 80, 443, 9090).
+
+### 5. Session
+- Manages **sessions/connections** (who is connected to whom, and for how long).  
+- Today often handled inside apps or inside TLS.
+
+### 6. Presentation
+- Deals with **data format and transformation**:  
+  - Encryption / decryption  
+  - Compression / decompression  
+  - Character encoding, formats (JSON, etc.).
+
+### 7. Application
+- What the **user/app actually uses**.  
+- Examples: **HTTP, HTTPS, FTP, DNS, SMTP, APIs, browsers, SSH**, etc.
+
+### OSI memory phrase
+
+From bottom → top:
+
+> **Please Do Not Throw Sausage Pizza Away**  
+> (Physical, Data link, Network, Transport, Session, Presentation, Application)
