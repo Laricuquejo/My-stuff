@@ -1,0 +1,8 @@
+1. entre na busca do google cloud e escreva DNS
+2. entre em Cloud DNS
+3. entre no dominio ou crie um novo (ex: entre em redemagiccom)
+4. click em add standard
+5. escreva o nome em: DNS name e aponte o ip em: ipv4 address
+6. click em create
+
+DONE! :)
