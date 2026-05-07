@@ -56,4 +56,11 @@ push model ≈ "the services would send (push) the metrics to Prometheus by them
 
 A time-series database is a database designed to store values that change over time, together with their timestamps. 
 
+Como esse trio trabalha junto na prática:
+	1	O Node Exporter sente os sinais vitais do computador.
+	2	O Prometheus anota e guarda todos esses sinais.
+	3	O Grafana desenha os gráficos na tela usando as anotações do Prometheus.
+
+
+
 
