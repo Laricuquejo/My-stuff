@@ -54,5 +54,40 @@ Error --> Defect/Fault --> Failure
 How does testing contribute to the overall succes of software?
 - By applying the right test techniques at the right phases in the SDLC (Software Development Life Cycle)
 
+The 7 Testing Principles (decorar pra prova):
+
+1. Testing shows the presence of defects, not their absence:
+	- Absence of evidence is not evidence of absence
+	- If we didn't find any bugs so far,  it doesn't mean they're not there
+	- Don't answer the question "Is the quality good now?" with "Yes, this software has no bugs" or "This system is completely bug free". Answer the question with this or something similar with "I haven't found any (more) bugs" or "I haven't found any further issues".	
+
+2. Exhaustive testing is impossible:
+	- 100% inclusive and comprehensive, something that has NO omissions.
+
+3. Early testing saves time and money
+4. Defects cluster together
+5. Tests wear out:
+	- Tests initially catch bugs
+	- With time, the same tests stop catching anything
+	- To detect new defects:
+		- Review and change existing tests and data
+		- Create new tests
+6. Testing is context dependent
+7.Absence-of-errors- is a fallacy.
+
+Cool example of how to prioritize what to test:
+I need to test this, but I only have 2 days --> A (Has a new feature), B (No change), C (No change)
+
+Prioritize: 
+1) Test Module A (the new feature)
+2) In the past 2 months:
+	- Module B had 10 bugs     <-- Focus here!
+	- Module C had 2 bugs
+3) Test Module C if you have spare time
+
+Another simple testing example: ![App Screenshot](/images/testing-example.png)
+
+
+
 
 
