@@ -72,8 +72,22 @@ The 7 Testing Principles (decorar pra prova):
 	- To detect new defects:
 		- Review and change existing tests and data
 		- Create new tests
-6. Testing is context dependent
+6. Testing is context dependent:
+	- Stakeholders
+	- Team members:
+		- Complete team? Competence?
+		- Business domain
+		- Technical factors
+		- Project constraints:
+			- time, budget, resources
+		- Organizational factors:
+			- Silos? Poor communication? (The "Silo Mentality": This is a cultural issue where a department hoards information or resources and views other teams almost as adversaries rather than partners.)
+		- Tools
 7.Absence-of-errors- is a fallacy.
+
+Verify vs Validating: 
+- Verify --> Hunt for bugs in the product
+- Validate --> (Possibly) go beyond the requirements, consider what end users may (really) want
 
 Cool example of how to prioritize what to test:
 I need to test this, but I only have 2 days --> A (Has a new feature), B (No change), C (No change)
@@ -86,6 +100,35 @@ Prioritize:
 3) Test Module C if you have spare time
 
 Another simple testing example: ![App Screenshot](/images/testing-example.png)
+
+Test planning:
+- Defining the objectives of testing
+- Specifying how you are going to achieve those:
+	- Test techiniques?
+	- Schedule and deadlines?
+
+Test Monitoring and Control:
+- On-going comparision of Planned vs Actual
+- Are we doing what we planned to do?
+- Are we on track?
+- Should we communicate our findings already?
+
+Test Analysis:
+- Looking at test basis products
+- Indetifying all possible defects:
+	- Ambiguities
+	- Omissions
+	- Inconsistencies
+	- Inaccuracies
+	- Contradictions
+	- Superfluous statements
+
+Test Design: 
+- Designing and prioritizing tests
+- Identifying necessary test data
+- Preparing the test environment
+- Capturing bi-directional traceablity between the thest basis, test conditions, and test cases
+
 
 
 
