@@ -118,7 +118,7 @@ Test Analysis:
 - Indetifying all possible defects:
 	- Ambiguities
 	- Omissions
-	- Inconsistencies
+	- Inconsistencies 
 	- Inaccuracies
 	- Contradictions
 	- Superfluous statements
@@ -128,6 +128,106 @@ Test Design:
 - Identifying necessary test data
 - Preparing the test environment
 - Capturing bi-directional traceablity between the thest basis, test conditions, and test cases
+
+Test Implementation:
+Developing test procedures and automated test scripts (if aplicable)
+Setting up the test environment
+Preparing test data
+
+Unexpected Output:
+Analyze and double-check:
+- Setup correct?
+- Steps followed faithfully?
+- Test scenario has no faults?
+Still wrong? Write a bug report?
+
+TestWare or Test Work Products:
+Test Plan: 
+- What are you testing?
+- When to start and finish? (entry/exit creteria)
+- Risk Register --> Risk Analysis Document 
+
+Test Monitoring:
+Reports:
+	- How's the progress?
+	- Who is doing what?
+
+Test Analysis:
+- Test Conditions
+- Defect reports of the test basis
+
+Test Design:
+- Test cases (Excel/TestRail)
+- Test data
+- Test environment
+
+Test Implementation:
+You create and implement whatever you specified in the Test Design phase
+
+Test Execution: 
+- Documentation of test in progress
+- Bug reports of the SUT (System Under Test)
+
+Test Completion:
+Ensuring that all defect reports are closed
+Creating a test summary report
+Finalizing, archiving and or sharing testware
+Analyzing lessons learned
+
+### IMPORTANT FOR EXAM!!!
+Test activities and Work Products Summary:
+1. Plan: What? When start/finish? Risks?
+2. Analyze: defect reports on requirements
+3. Design: test cases, data, environment
+4. Implement: (the above) + automated scripts
+5. Execute: progress and bug reports
+6. Monitor and control: reports
+
+### IMPORTANT FOR EXAM!!!
+Test Roles:
+- Managment: overall responsibility, planning, monitoring, leadership.
+- Tester: hands-on analysis, design, test case creation, bug reporting.
+
+Generic Skills:
+- Thoroughness and attention to detail
+- Analytical and critical thinking
+- Technical knowledge:
+	- e.g. HTTP, HTML, SQL, scripting
+	- Computer science fundamentals
+- Communication skills and empathy
+
+Negative Stereotypes:
+Big Bad Tester:
+- The bearer of bad news
+- The Critic
+- Other (e.g. The Incompetent)
+
+How to be a better tester?
+The Bearer of Bad News:
+	- Establish a relationship with developers
+	- You are not on opposite sides
+Say that you are here to support them
+
+The Critic:
+- Constructive
+- Clear
+- Informative
+
+Bug Report:
+At least answers What? When? How?
+- Software version tested
+- Link to relevant requirements
+- Short description
+- Concrete steps taken to reproduce the failure
+- Expected resul:
+- Actual result:
+- Screenshots, log snippets or other applicable useful information
+- Read your own report
+
+Testers may suffer from familiarity bias 
+
+ 
+
 
 
 
