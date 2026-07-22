@@ -43,3 +43,4 @@ TDD: Developer-focused, covers both business logic and technical details
 ATDD: Team-involved, derived from acceptance criteria, focuses on business logic only
 BDD: Similar to ATDD but emphasizes close collaboration and uses given-when-then format in plain English[3]
 The common thread? All three write tests or scenarios before the software is written!
+
