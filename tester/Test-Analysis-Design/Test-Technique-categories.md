@@ -2,11 +2,13 @@
 K1 - remember, recognize, recall
 K2 - understand, explain, compare
 K3 - apply, use
+
 # Black-box Testing:
 - The test basis may include user stories, use cases and other requirements documentation.
 - Test cases help detect deviations between requirements and the implementation.
 - Coverage is bases on the items tested in the test basis but also depend on the black-box tet technique applied.
 - Can be performed at all test levels.
+
 # Static Black-box Testing
 Static means --> reviewing documents, requirements, or specifications without running code.
  ![App Screenshot](/images/Static-Black-box-Testing.png)
@@ -23,6 +25,7 @@ Static Black-box Testing --> reviewing the login requirements document to find i
 # Side questions
 What coverage means?
 - It is a testing concept that measures how much of something you've tested.
+
 ### Coverage can measure different things:
 
 #### Requirements coverage - How many requirements have you tested?
@@ -32,4 +35,15 @@ If there are 100 requirements and you've tested 80 of them, you have 80% require
 Statement coverage: How many lines of code ran?
 Branch coverage: How many decision paths (if/else) did you test?
 #### Test condition coverage - How many identified test conditions have you covered with test cases?
+
+# White-box Testing
+![App Screenshot](/images/Static-Black-box-Testing2.png)
+- Is the opposite from black-box testing, you need to understand code.
+![App Screenshot](/images/White-Box-Testing.png)
+
+# Experience-based Testing
+![App Screenshot](/images/Experience-based-Testing.png)
+
+# Technique Selection Factors
+![App Screenshot](/images/Technique-Selection-Factors.png)
 
