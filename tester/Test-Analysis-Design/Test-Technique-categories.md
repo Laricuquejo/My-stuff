@@ -71,3 +71,44 @@ What coverage means?
 * Why use it? 
 - Think of it this way: if you're testing a username field that accepts 6-100 characters, a programmer is more likely to make a mistake with the boundary logic (like using < (less) instead of <= (less or equal)) than with values in the middle. So testing values like 5, 6, 100, and 101 is smarter than testing random values like 50 or 75.
 
+# Understanding Decision Table Testing
+
+## The Main Idea
+Think of a decision table like a spreadsheet that helps you organize different scenarios. Each column is a test case, and each row shows either:
+- A condition (something that affects what happens)
+- An action (what the system should do)
+
+### How to Read It
+- Y (Yes) or T (True): The condition is true, or the action happens
+- N (No) or F (False): The condition is false, or the action doesn't happen
+- Dash (–): It doesn't matter - this condition isn't relevant for this test
+#### Why Use This?
+- Decision tables help you avoid missing important test cases. By laying out all the conditions and systematically working through combinations, you can be confident you've tested all the important scenarios.
+
+### The Process
+Start with the worst-case scenario (everything is false), then gradually make one thing true at a time until you've covered all meaningful combinations. The example in the clip found 8 test cases needed to fully test a bill-paying feature.
+
+#### Image as an example
+- ![App Screenshot](/images/Decision-Table-Testing.png)
+
+# Understanding State Transition Testing
+- The Main Idea
+Many systems have different "states" (like an industrial fan being off, slow, medium, or fast). State transition testing makes sure all the ways you can move between these states work correctly.
+
+Two Coverage Types:
+1. Valid Transition Coverage
+
+Tests every possible way to move from one state to another
+Example: The fan can go from slow → medium, medium → fast, etc.
+2. All States Coverage
+
+Makes sure you visit every state at least once
+Example: An ATM being Ready, processing a PIN, showing Account Access, or eating a card
+The Examples:
+Industrial Fan Example: You needed 2 tests to cover all the valid transitions (like powering on, speeding up, slowing down, and powering off).
+
+ATM Example: You needed 2 tests to reach all 7 states - one test where you enter the wrong PIN repeatedly, and another where you enter it correctly.
+
+Important Lesson
+Just visiting all the states doesn't mean you've tested all the transitions! In the ATM example, 2 transitions weren't tested even though all states were covered. This means potential bugs could be hiding in those untested transitions.
+
