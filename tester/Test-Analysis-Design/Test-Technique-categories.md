@@ -95,20 +95,18 @@ Start with the worst-case scenario (everything is false), then gradually make on
 - The Main Idea
 Many systems have different "states" (like an industrial fan being off, slow, medium, or fast). State transition testing makes sure all the ways you can move between these states work correctly.
 
-Two Coverage Types:
+#### Two Coverage Types:
 1. Valid Transition Coverage
+- Tests every possible way to move from one state to another
+- Example: The fan can go from slow → medium, medium → fast, etc.
 
-Tests every possible way to move from one state to another
-Example: The fan can go from slow → medium, medium → fast, etc.
 2. All States Coverage
-
-Makes sure you visit every state at least once
-Example: An ATM being Ready, processing a PIN, showing Account Access, or eating a card
+- Makes sure you visit every state at least once
+- Example: An ATM being Ready, processing a PIN, showing Account Access, or eating a card
 The Examples:
-Industrial Fan Example: You needed 2 tests to cover all the valid transitions (like powering on, speeding up, slowing down, and powering off).
+- Industrial Fan Example: You needed 2 tests to cover all the valid transitions (like powering on, speeding up, slowing down, and powering off).
+- ATM Example: You needed 2 tests to reach all 7 states - one test where you enter the wrong PIN repeatedly, and another where you enter it correctly.
 
-ATM Example: You needed 2 tests to reach all 7 states - one test where you enter the wrong PIN repeatedly, and another where you enter it correctly.
-
-Important Lesson
+#### Important Lesson
 Just visiting all the states doesn't mean you've tested all the transitions! In the ATM example, 2 transitions weren't tested even though all states were covered. This means potential bugs could be hiding in those untested transitions.
 
