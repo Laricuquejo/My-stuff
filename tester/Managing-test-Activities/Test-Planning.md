@@ -28,4 +28,16 @@
 - Focuses on the iteration backlog:
     - Detail testing tasks to be performed
     - Perform risk analysis of specific user stories
-    - Estimate test effort
+    - Estimate test effort 
+
+# Entry Criteria
+- Define the necessary requirements for starting an activity
+- Failing to meet all entry criteria have various negative impacts on an activity
+- Should be defined for each test level
+- Referred to as the 'Definition of Ready' in Agile software development
+
+# Exit Criteria
+- Define what must be achieved for an activity to be regarded as completed
+- May act as the entry criteria for a subsequent activity
+- Should be defined for each test level 
+- Referred to as the 'Definition of Done' in Agile software development
