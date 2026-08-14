@@ -36,4 +36,31 @@
     - High maintenance costs
     - Physical harm
 
+# Defect Management
+- The exact process will be specific to your team or organization
+- All stakeholders must follow the same process
+- Consider using the same process for all types of defects
+
+# Defect Report Structure
+- Title
+- summary
+- Steps to reproduce
+- Expected and actual results
+- Evidence:
+    - Screenshots
+    - Videos
+    - Logs
+
+# Example of a Defect Report
+![App Screenshot](/images/Defect-Report.png)
+
+# Metadata
+- Most should be automatically captured by a defect management tool
+- Unique identifier
+- Date of observation
+- Creator details
+- Priority and severity of defect
+- Status
+- Software versions
+- Related entities
 
