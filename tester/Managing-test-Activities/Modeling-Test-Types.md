@@ -64,3 +64,24 @@
 - Software versions
 - Related entities
 
+Defect Management
+Purpose: To systematically track and manage defects from discovery through resolution.
+Defect Report Elements: A defect report should contain suﬃcient information for someone else to
+understand, reproduce, and fix the issue. Key fields include:
+Unique Identifier
+Title/Summary
+Date/Time Found
+Author
+Test Item/Component
+Test Environment
+Context (e.g., specific configuration)
+Failure Description (detailed steps to reproduce the failure)
+Actual Result (what happened)
+Expected Result (what should have happened)
+Severity (impact on functionality)
+Priority (urgency of fixing)
+Status (e.g., New, Open, Fixed, Deferred, Closed)
+References (e.g., to test case, requirement)
+Attachments (logs, screenshots, videos)
+Defect Lifecycle: The typical workflow of a defect (e.g., New -> Assigned -> Open -> Fixed -> Retest ->
+Closed/Reopened).
